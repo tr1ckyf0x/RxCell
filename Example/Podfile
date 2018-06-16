@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RxCell_Example' do
+  pod 'RxCell', :path => '../'
+  pod 'RxDataSources', '~> 3.0'
+  pod 'NSObject+Rx'
+  target 'RxCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
