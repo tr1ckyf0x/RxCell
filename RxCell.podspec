@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxCell'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'RxSwift extensions on UITableViewCell and UICollectionViewCell.'
 
 # This description is used to generate tags and improve search results.
@@ -25,10 +25,9 @@ Adds rx.reuseDisposeBag property for UITableViewCell and UICollectionViewCell li
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vladislav Lisyanskiy' => 'vladislav.lisyanskiy@gmail.com' }
   s.source           = { :git => 'https://github.com/tr1ckyf0x/RxCell.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://facebook.com/Vladislav.Lisyanskiy'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
   s.source_files = 'RxCell/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,5 +36,5 @@ Adds rx.reuseDisposeBag property for UITableViewCell and UICollectionViewCell li
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  s.dependency 'RxSwift', '~> 4.0'
+  s.dependency 'RxSwift', '~> 5'
 end
